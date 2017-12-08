@@ -15,6 +15,7 @@
 		AE6756801FDA34A200E42C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE67567F1FDA34A200E42C57 /* main.m */; };
 		AE67568A1FDA34A200E42C57 /* LBCopyAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756891FDA34A200E42C57 /* LBCopyAFNetworkingTests.m */; };
 		AE6756951FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756941FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m */; };
+		AE6756A51FDA786B00E42C57 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756A41FDA786B00E42C57 /* AFURLRequestSerialization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AE6756901FDA34A200E42C57 /* LBCopyAFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBCopyAFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6756941FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBCopyAFNetworkingUITests.m; sourceTree = "<group>"; };
 		AE6756961FDA34A200E42C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6756A31FDA786B00E42C57 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AE6756A41FDA786B00E42C57 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		AE67566F1FDA34A200E42C57 /* LBCopyAFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				AE6756A21FDA359300E42C57 /* AFNetworking */,
 				AE6756701FDA34A200E42C57 /* AppDelegate.h */,
 				AE6756711FDA34A200E42C57 /* AppDelegate.m */,
 				AE6756731FDA34A200E42C57 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				AE6756961FDA34A200E42C57 /* Info.plist */,
 			);
 			path = LBCopyAFNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		AE6756A21FDA359300E42C57 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AE6756A31FDA786B00E42C57 /* AFURLRequestSerialization.h */,
+				AE6756A41FDA786B00E42C57 /* AFURLRequestSerialization.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				AE6756751FDA34A200E42C57 /* ViewController.m in Sources */,
 				AE6756801FDA34A200E42C57 /* main.m in Sources */,
 				AE6756721FDA34A200E42C57 /* AppDelegate.m in Sources */,
+				AE6756A51FDA786B00E42C57 /* AFURLRequestSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
