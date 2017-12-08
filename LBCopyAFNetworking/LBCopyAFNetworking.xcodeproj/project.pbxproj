@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE6756721FDA34A200E42C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756711FDA34A200E42C57 /* AppDelegate.m */; };
+		AE6756751FDA34A200E42C57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756741FDA34A200E42C57 /* ViewController.m */; };
+		AE6756781FDA34A200E42C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6756761FDA34A200E42C57 /* Main.storyboard */; };
+		AE67567A1FDA34A200E42C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6756791FDA34A200E42C57 /* Assets.xcassets */; };
+		AE67567D1FDA34A200E42C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE67567B1FDA34A200E42C57 /* LaunchScreen.storyboard */; };
+		AE6756801FDA34A200E42C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE67567F1FDA34A200E42C57 /* main.m */; };
+		AE67568A1FDA34A200E42C57 /* LBCopyAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756891FDA34A200E42C57 /* LBCopyAFNetworkingTests.m */; };
+		AE6756951FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756941FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE6756861FDA34A200E42C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6756651FDA34A200E42C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE67566C1FDA34A200E42C57;
+			remoteInfo = LBCopyAFNetworking;
+		};
+		AE6756911FDA34A200E42C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6756651FDA34A200E42C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE67566C1FDA34A200E42C57;
+			remoteInfo = LBCopyAFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE67566D1FDA34A200E42C57 /* LBCopyAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBCopyAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6756701FDA34A200E42C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE6756711FDA34A200E42C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE6756731FDA34A200E42C57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE6756741FDA34A200E42C57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE6756771FDA34A200E42C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE6756791FDA34A200E42C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE67567C1FDA34A200E42C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE67567E1FDA34A200E42C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE67567F1FDA34A200E42C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE6756851FDA34A200E42C57 /* LBCopyAFNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBCopyAFNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6756891FDA34A200E42C57 /* LBCopyAFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBCopyAFNetworkingTests.m; sourceTree = "<group>"; };
+		AE67568B1FDA34A200E42C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6756901FDA34A200E42C57 /* LBCopyAFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBCopyAFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6756941FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBCopyAFNetworkingUITests.m; sourceTree = "<group>"; };
+		AE6756961FDA34A200E42C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE67566A1FDA34A200E42C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6756821FDA34A200E42C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE67568D1FDA34A200E42C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE6756641FDA34A200E42C57 = {
+			isa = PBXGroup;
+			children = (
+				AE67566F1FDA34A200E42C57 /* LBCopyAFNetworking */,
+				AE6756881FDA34A200E42C57 /* LBCopyAFNetworkingTests */,
+				AE6756931FDA34A200E42C57 /* LBCopyAFNetworkingUITests */,
+				AE67566E1FDA34A200E42C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE67566E1FDA34A200E42C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE67566D1FDA34A200E42C57 /* LBCopyAFNetworking.app */,
+				AE6756851FDA34A200E42C57 /* LBCopyAFNetworkingTests.xctest */,
+				AE6756901FDA34A200E42C57 /* LBCopyAFNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE67566F1FDA34A200E42C57 /* LBCopyAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AE6756701FDA34A200E42C57 /* AppDelegate.h */,
+				AE6756711FDA34A200E42C57 /* AppDelegate.m */,
+				AE6756731FDA34A200E42C57 /* ViewController.h */,
+				AE6756741FDA34A200E42C57 /* ViewController.m */,
+				AE6756761FDA34A200E42C57 /* Main.storyboard */,
+				AE6756791FDA34A200E42C57 /* Assets.xcassets */,
+				AE67567B1FDA34A200E42C57 /* LaunchScreen.storyboard */,
+				AE67567E1FDA34A200E42C57 /* Info.plist */,
+				AE67567F1FDA34A200E42C57 /* main.m */,
+			);
+			path = LBCopyAFNetworking;
+			sourceTree = "<group>";
+		};
+		AE6756881FDA34A200E42C57 /* LBCopyAFNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6756891FDA34A200E42C57 /* LBCopyAFNetworkingTests.m */,
+				AE67568B1FDA34A200E42C57 /* Info.plist */,
+			);
+			path = LBCopyAFNetworkingTests;
+			sourceTree = "<group>";
+		};
+		AE6756931FDA34A200E42C57 /* LBCopyAFNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6756941FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m */,
+				AE6756961FDA34A200E42C57 /* Info.plist */,
+			);
+			path = LBCopyAFNetworkingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE67566C1FDA34A200E42C57 /* LBCopyAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6756991FDA34A200E42C57 /* Build configuration list for PBXNativeTarget "LBCopyAFNetworking" */;
+			buildPhases = (
+				AE6756691FDA34A200E42C57 /* Sources */,
+				AE67566A1FDA34A200E42C57 /* Frameworks */,
+				AE67566B1FDA34A200E42C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBCopyAFNetworking;
+			productName = LBCopyAFNetworking;
+			productReference = AE67566D1FDA34A200E42C57 /* LBCopyAFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE6756841FDA34A200E42C57 /* LBCopyAFNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE67569C1FDA34A200E42C57 /* Build configuration list for PBXNativeTarget "LBCopyAFNetworkingTests" */;
+			buildPhases = (
+				AE6756811FDA34A200E42C57 /* Sources */,
+				AE6756821FDA34A200E42C57 /* Frameworks */,
+				AE6756831FDA34A200E42C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6756871FDA34A200E42C57 /* PBXTargetDependency */,
+			);
+			name = LBCopyAFNetworkingTests;
+			productName = LBCopyAFNetworkingTests;
+			productReference = AE6756851FDA34A200E42C57 /* LBCopyAFNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE67568F1FDA34A200E42C57 /* LBCopyAFNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE67569F1FDA34A200E42C57 /* Build configuration list for PBXNativeTarget "LBCopyAFNetworkingUITests" */;
+			buildPhases = (
+				AE67568C1FDA34A200E42C57 /* Sources */,
+				AE67568D1FDA34A200E42C57 /* Frameworks */,
+				AE67568E1FDA34A200E42C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6756921FDA34A200E42C57 /* PBXTargetDependency */,
+			);
+			name = LBCopyAFNetworkingUITests;
+			productName = LBCopyAFNetworkingUITests;
+			productReference = AE6756901FDA34A200E42C57 /* LBCopyAFNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE6756651FDA34A200E42C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hangzhou Zhanya Technology";
+				TargetAttributes = {
+					AE67566C1FDA34A200E42C57 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					AE6756841FDA34A200E42C57 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE67566C1FDA34A200E42C57;
+					};
+					AE67568F1FDA34A200E42C57 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE67566C1FDA34A200E42C57;
+					};
+				};
+			};
+			buildConfigurationList = AE6756681FDA34A200E42C57 /* Build configuration list for PBXProject "LBCopyAFNetworking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE6756641FDA34A200E42C57;
+			productRefGroup = AE67566E1FDA34A200E42C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE67566C1FDA34A200E42C57 /* LBCopyAFNetworking */,
+				AE6756841FDA34A200E42C57 /* LBCopyAFNetworkingTests */,
+				AE67568F1FDA34A200E42C57 /* LBCopyAFNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE67566B1FDA34A200E42C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE67567D1FDA34A200E42C57 /* LaunchScreen.storyboard in Resources */,
+				AE67567A1FDA34A200E42C57 /* Assets.xcassets in Resources */,
+				AE6756781FDA34A200E42C57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6756831FDA34A200E42C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE67568E1FDA34A200E42C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6756691FDA34A200E42C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6756751FDA34A200E42C57 /* ViewController.m in Sources */,
+				AE6756801FDA34A200E42C57 /* main.m in Sources */,
+				AE6756721FDA34A200E42C57 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6756811FDA34A200E42C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE67568A1FDA34A200E42C57 /* LBCopyAFNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE67568C1FDA34A200E42C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6756951FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE6756871FDA34A200E42C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE67566C1FDA34A200E42C57 /* LBCopyAFNetworking */;
+			targetProxy = AE6756861FDA34A200E42C57 /* PBXContainerItemProxy */;
+		};
+		AE6756921FDA34A200E42C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE67566C1FDA34A200E42C57 /* LBCopyAFNetworking */;
+			targetProxy = AE6756911FDA34A200E42C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE6756761FDA34A200E42C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6756771FDA34A200E42C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE67567B1FDA34A200E42C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE67567C1FDA34A200E42C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6756971FDA34A200E42C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE6756981FDA34A200E42C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE67569A1FDA34A200E42C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG2GA9AC3P;
+				INFOPLIST_FILE = LBCopyAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cunli.LBCopyAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE67569B1FDA34A200E42C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG2GA9AC3P;
+				INFOPLIST_FILE = LBCopyAFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cunli.LBCopyAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE67569D1FDA34A200E42C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG2GA9AC3P;
+				INFOPLIST_FILE = LBCopyAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cunli.LBCopyAFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBCopyAFNetworking.app/LBCopyAFNetworking";
+			};
+			name = Debug;
+		};
+		AE67569E1FDA34A200E42C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG2GA9AC3P;
+				INFOPLIST_FILE = LBCopyAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cunli.LBCopyAFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBCopyAFNetworking.app/LBCopyAFNetworking";
+			};
+			name = Release;
+		};
+		AE6756A01FDA34A200E42C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG2GA9AC3P;
+				INFOPLIST_FILE = LBCopyAFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cunli.LBCopyAFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LBCopyAFNetworking;
+			};
+			name = Debug;
+		};
+		AE6756A11FDA34A200E42C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EG2GA9AC3P;
+				INFOPLIST_FILE = LBCopyAFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cunli.LBCopyAFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LBCopyAFNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6756681FDA34A200E42C57 /* Build configuration list for PBXProject "LBCopyAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6756971FDA34A200E42C57 /* Debug */,
+				AE6756981FDA34A200E42C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6756991FDA34A200E42C57 /* Build configuration list for PBXNativeTarget "LBCopyAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE67569A1FDA34A200E42C57 /* Debug */,
+				AE67569B1FDA34A200E42C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE67569C1FDA34A200E42C57 /* Build configuration list for PBXNativeTarget "LBCopyAFNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE67569D1FDA34A200E42C57 /* Debug */,
+				AE67569E1FDA34A200E42C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE67569F1FDA34A200E42C57 /* Build configuration list for PBXNativeTarget "LBCopyAFNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6756A01FDA34A200E42C57 /* Debug */,
+				AE6756A11FDA34A200E42C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE6756651FDA34A200E42C57 /* Project object */;
+}
