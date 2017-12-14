@@ -16,6 +16,7 @@
 		AE67568A1FDA34A200E42C57 /* LBCopyAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756891FDA34A200E42C57 /* LBCopyAFNetworkingTests.m */; };
 		AE6756951FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756941FDA34A200E42C57 /* LBCopyAFNetworkingUITests.m */; };
 		AE6756A51FDA786B00E42C57 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6756A41FDA786B00E42C57 /* AFURLRequestSerialization.m */; };
+		AED820001FE26A76009D88C1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AED81FFF1FE26A76009D88C1 /* AFURLResponseSerialization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		AE6756961FDA34A200E42C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6756A31FDA786B00E42C57 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		AE6756A41FDA786B00E42C57 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AED81FFE1FE26A76009D88C1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AED81FFF1FE26A76009D88C1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 			children = (
 				AE6756A31FDA786B00E42C57 /* AFURLRequestSerialization.h */,
 				AE6756A41FDA786B00E42C57 /* AFURLRequestSerialization.m */,
+				AED81FFE1FE26A76009D88C1 /* AFURLResponseSerialization.h */,
+				AED81FFF1FE26A76009D88C1 /* AFURLResponseSerialization.m */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				AE6756801FDA34A200E42C57 /* main.m in Sources */,
 				AE6756721FDA34A200E42C57 /* AppDelegate.m in Sources */,
 				AE6756A51FDA786B00E42C57 /* AFURLRequestSerialization.m in Sources */,
+				AED820001FE26A76009D88C1 /* AFURLResponseSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
